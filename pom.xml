@@ -128,7 +128,7 @@
                             -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
                         </argLine>
                         <suiteXmlFiles>
-                            <suiteXmlFile>D:\Dev\DevOps\testng.xml</suiteXmlFile>
+                            <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                     <dependencies>
