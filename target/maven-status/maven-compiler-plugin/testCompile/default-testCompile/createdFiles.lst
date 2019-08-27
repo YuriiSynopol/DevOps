@@ -1,0 +1,15 @@
+test\AllureTestCurrency.class
+testAPI\APICurrency.class
+testAPI\HorizontalAndVerticalTestAPI.class
+test\TestSearch.class
+test\LogInRegisteredUserFail.class
+test\TestCartFunctional.class
+test\HorizontalAndVerticalTest.class
+test\CreateExistUser.class
+test\LogInRegisteredUser.class
+test\DB.class
+testAPI\testAPI.class
+tools\TestRunner.class
+test\TestLoginForm.class
+testAPI\jsonParser.class
+test\CreateAccountWithoutCred.class

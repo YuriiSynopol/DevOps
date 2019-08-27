@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1abd54f-77ba-402a-b6bb-353055589459" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runallure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/runallure.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestLoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestLoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-08-13T19-10-06_569.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.AllureTestCurrency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.AllureTestCurrency.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.HorizontalAndVerticalTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.HorizontalAndVerticalTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestCartFunctional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestCartFunctional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestSearch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestSearch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1OhKzlSt7sEA2re1c8AaAwmcUXm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SOFTSERVE\DEMO_3\Prestashop\allure-results" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\com\softserve\edu\prestashop\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\test" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\pages" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\data" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\resources" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/PrestaShop/Prestashop/testng.xml">
+    <configuration name="AllureTestCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AllureTestCurrency" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllureTestCurrency.checkCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AllureTestCurrency" />
+      <option name="METHOD_NAME" value="checkCurrency" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/PrestaShop/Prestashop/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="prestashop" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testAPI" />
+      <option name="MAIN_CLASS_NAME" value="testAPI.testAPI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAPI.TestLanguageJsonString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testAPI" />
+      <option name="MAIN_CLASS_NAME" value="testAPI.testAPI" />
+      <option name="METHOD_NAME" value="TestLanguageJsonString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/PrestaShop/Prestashop/testng.xml" />
+        <item itemvalue="TestNG.AllureTestCurrency" />
+        <item itemvalue="TestNG.AllureTestCurrency.checkCurrency" />
+        <item itemvalue="TestNG.testAPI.TestLanguageJsonString" />
+        <item itemvalue="TestNG.testAPI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1abd54f-77ba-402a-b6bb-353055589459" name="Default Changelist" comment="" />
+      <created>1563442458913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563442458913</updated>
+      <workItem from="1563442462872" duration="8756000" />
+      <workItem from="1563726673349" duration="20319000" />
+      <workItem from="1564037626783" duration="32945000" />
+      <workItem from="1564411927556" duration="1973000" />
+      <workItem from="1565348038836" duration="829000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/Prestashop" />
+    </ignored-roots>
+    <MESSAGE value="screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshot" />
+  </component>
+</project>

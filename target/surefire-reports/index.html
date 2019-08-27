@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PrestashopTest" class="navigator-link">
+              <span class="suite-name border-failed">PrestashopTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PrestashopTest" class="navigator-link ">
+                    <span>D:\PrestaShop\Prestashop\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PrestashopTest" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PrestashopTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PrestashopTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PrestashopTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PrestashopTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PrestashopTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 4 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PrestashopTest" class="hide-methods failed suite-PrestashopTest"> (hide)</a> <!-- hide-methods failed suite-PrestashopTest -->
+                      <a href="#" panel-name="suite-PrestashopTest" class="show-methods failed suite-PrestashopTest"> (show)</a> <!-- show-methods failed suite-PrestashopTest -->
+                    </span>
+                    <div class="method-list-content failed suite-PrestashopTest">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestSearch" class="method navigator-link" hash-for-method="TestSearchResultSortAZNotWork">TestSearchResultSortAZNotWork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkExchangeCurrencyUsdToEu">checkExchangeCurrencyUsdToEu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkExchangeCurrencyUsdToUa">checkExchangeCurrencyUsdToUa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestCartFunctional" class="method navigator-link" hash-for-method="wrongAddProductToCart">wrongAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PrestashopTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PrestashopTest" class="hide-methods passed suite-PrestashopTest"> (hide)</a> <!-- hide-methods passed suite-PrestashopTest -->
+                      <a href="#" panel-name="suite-PrestashopTest" class="show-methods passed suite-PrestashopTest"> (show)</a> <!-- show-methods passed suite-PrestashopTest -->
+                    </span>
+                    <div class="method-list-content passed suite-PrestashopTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestSearch" class="method navigator-link" hash-for-method="TestElementsInSearch">TestElementsInSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestSearch" class="method navigator-link" hash-for-method="TestEmptyPage">TestEmptyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestSearch" class="method navigator-link" hash-for-method="TestSearchResultSortAZ">TestSearchResultSortAZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestSearch" class="method navigator-link" hash-for-method="TetsAfterSearch">TetsAfterSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestCartFunctional" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.HorizontalAndVerticalTest" class="method navigator-link" hash-for-method="checkAccessories">checkAccessories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.HorizontalAndVerticalTest" class="method navigator-link" hash-for-method="checkArt">checkArt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.HorizontalAndVerticalTest" class="method navigator-link" hash-for-method="checkClothes">checkClothes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkCurrency(Euro, Euro)">checkCurrency(Euro, Euro)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkCurrency(US DOLLAR, US Dollar)">checkCurrency(US DOLLAR, US Dollar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkCurrency(Ukrainian Hryvnia, Ukrainian Hryvnia)">checkCurrency(Ukrainian Hryvnia, Ukrainian Hryvnia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.AllureTestCurrency" class="method navigator-link" hash-for-method="checkCurrencyForOneElement">checkCurrencyForOneElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.HorizontalAndVerticalTest" class="method navigator-link" hash-for-method="checkMenClothes">checkMenClothes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.HorizontalAndVerticalTest" class="method navigator-link" hash-for-method="checkStationeryAccessories">checkStationeryAccessories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestCartFunctional" class="method navigator-link" hash-for-method="deleteProductFromShoppingCart">deleteProductFromShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PrestashopTest" title="test.TestCartFunctional" class="method navigator-link" hash-for-method="priceProductFromShoppingCart">priceProductFromShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PrestashopTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PrestashopTest" class="panel PrestashopTest">
+          <div class="suite-PrestashopTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSearchResultSortAZNotWork">
+                  </a> <!-- TestSearchResultSortAZNotWork -->
+                  <span class="method-name">TestSearchResultSortAZNotWork</span>
+                  <div class="stack-trace">java.lang.AssertionError: Lists differ at element [0]: Customizable Mug != Pack Mug + Framed Poster expected [Customizable Mug] but found [Pack Mug + Framed Poster]
+	at test.TestSearch.TestSearchResultSortAZNotWork(TestSearch.java:144)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-failed -->
+          <div class="suite-PrestashopTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.AllureTestCurrency</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExchangeCurrencyUsdToEu">
+                  </a> <!-- checkExchangeCurrencyUsdToEu -->
+                  <span class="method-name">checkExchangeCurrencyUsdToEu</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [15.3] but found [0.0]
+	at test.AllureTestCurrency.checkExchangeCurrencyUsdToEu(AllureTestCurrency.java:114)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExchangeCurrencyUsdToUa">
+                  </a> <!-- checkExchangeCurrencyUsdToUa -->
+                  <span class="method-name">checkExchangeCurrencyUsdToUa</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [495.21] but found [544.92]
+	at test.AllureTestCurrency.checkExchangeCurrencyUsdToUa(AllureTestCurrency.java:85)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-failed -->
+          <div class="suite-PrestashopTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TestCartFunctional</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongAddProductToCart">
+                  </a> <!-- wrongAddProductToCart -->
+                  <span class="method-name">wrongAddProductToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestCartFunctional.wrongAddProductToCart(TestCartFunctional.java:84)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-failed -->
+          <div class="suite-PrestashopTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestElementsInSearch">
+                  </a> <!-- TestElementsInSearch -->
+                  <span class="method-name">TestElementsInSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEmptyPage">
+                  </a> <!-- TestEmptyPage -->
+                  <span class="method-name">TestEmptyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSearchResultSortAZ">
+                  </a> <!-- TestSearchResultSortAZ -->
+                  <span class="method-name">TestSearchResultSortAZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TetsAfterSearch">
+                  </a> <!-- TetsAfterSearch -->
+                  <span class="method-name">TetsAfterSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-passed -->
+          <div class="suite-PrestashopTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.AllureTestCurrency</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCurrency(Euro, Euro)">
+                  </a> <!-- checkCurrency(Euro, Euro) -->
+                  <span class="method-name">checkCurrency</span>
+                  <span class="parameters">(Euro, Euro)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCurrency(US DOLLAR, US Dollar)">
+                  </a> <!-- checkCurrency(US DOLLAR, US Dollar) -->
+                  <span class="method-name">checkCurrency</span>
+                  <span class="parameters">(US DOLLAR, US Dollar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCurrency(Ukrainian Hryvnia, Ukrainian Hryvnia)">
+                  </a> <!-- checkCurrency(Ukrainian Hryvnia, Ukrainian Hryvnia) -->
+                  <span class="method-name">checkCurrency</span>
+                  <span class="parameters">(Ukrainian Hryvnia, Ukrainian Hryvnia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCurrencyForOneElement">
+                  </a> <!-- checkCurrencyForOneElement -->
+                  <span class="method-name">checkCurrencyForOneElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-passed -->
+          <div class="suite-PrestashopTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.HorizontalAndVerticalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAccessories">
+                  </a> <!-- checkAccessories -->
+                  <span class="method-name">checkAccessories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkArt">
+                  </a> <!-- checkArt -->
+                  <span class="method-name">checkArt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkClothes">
+                  </a> <!-- checkClothes -->
+                  <span class="method-name">checkClothes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenClothes">
+                  </a> <!-- checkMenClothes -->
+                  <span class="method-name">checkMenClothes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStationeryAccessories">
+                  </a> <!-- checkStationeryAccessories -->
+                  <span class="method-name">checkStationeryAccessories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-passed -->
+          <div class="suite-PrestashopTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestCartFunctional</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteProductFromShoppingCart">
+                  </a> <!-- deleteProductFromShoppingCart -->
+                  <span class="method-name">deleteProductFromShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceProductFromShoppingCart">
+                  </a> <!-- priceProductFromShoppingCart -->
+                  <span class="method-name">priceProductFromShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrestashopTest-class-passed -->
+        </div> <!-- panel PrestashopTest -->
+        <div panel-name="test-xml-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\PrestaShop\Prestashop\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PrestashopTest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Currency TEst&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.AllureTestCurrency&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Currency TEst --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Horizontal And Vertical Menu Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.HorizontalAndVerticalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Horizontal And Vertical Menu Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart Functional Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestCartFunctional&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Functional Test --&gt;
+&lt;/suite&gt; &lt;!-- PrestashopTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PrestashopTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Currency TEst (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Horizontal And Vertical Menu Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Functional Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PrestashopTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PrestashopTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PrestashopTest');
+function tableData_PrestashopTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'priceProductFromShoppingCart')
+data.setCell(0, 2, 'test.TestCartFunctional')
+data.setCell(0, 3, 11123);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkCurrency')
+data.setCell(1, 2, 'test.AllureTestCurrency')
+data.setCell(1, 3, 7035);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkExchangeCurrencyUsdToEu')
+data.setCell(2, 2, 'test.AllureTestCurrency')
+data.setCell(2, 3, 6457);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkCurrencyForOneElement')
+data.setCell(3, 2, 'test.AllureTestCurrency')
+data.setCell(3, 3, 6306);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkExchangeCurrencyUsdToUa')
+data.setCell(4, 2, 'test.AllureTestCurrency')
+data.setCell(4, 3, 5930);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteProductFromShoppingCart')
+data.setCell(5, 2, 'test.TestCartFunctional')
+data.setCell(5, 3, 4893);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addProductToCart')
+data.setCell(6, 2, 'test.TestCartFunctional')
+data.setCell(6, 3, 3349);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'wrongAddProductToCart')
+data.setCell(7, 2, 'test.TestCartFunctional')
+data.setCell(7, 3, 2870);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkCurrency')
+data.setCell(8, 2, 'test.AllureTestCurrency')
+data.setCell(8, 3, 2394);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkCurrency')
+data.setCell(9, 2, 'test.AllureTestCurrency')
+data.setCell(9, 3, 2257);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkMenClothes')
+data.setCell(10, 2, 'test.HorizontalAndVerticalTest')
+data.setCell(10, 3, 1691);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestSearchResultSortAZNotWork')
+data.setCell(11, 2, 'test.TestSearch')
+data.setCell(11, 3, 1292);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkClothes')
+data.setCell(12, 2, 'test.HorizontalAndVerticalTest')
+data.setCell(12, 3, 1062);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkAccessories')
+data.setCell(13, 2, 'test.HorizontalAndVerticalTest')
+data.setCell(13, 3, 945);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestElementsInSearch')
+data.setCell(14, 2, 'test.TestSearch')
+data.setCell(14, 3, 906);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestSearchResultSortAZ')
+data.setCell(15, 2, 'test.TestSearch')
+data.setCell(15, 3, 833);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TetsAfterSearch')
+data.setCell(16, 2, 'test.TestSearch')
+data.setCell(16, 3, 718);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkStationeryAccessories')
+data.setCell(17, 2, 'test.HorizontalAndVerticalTest')
+data.setCell(17, 3, 673);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkArt')
+data.setCell(18, 2, 'test.HorizontalAndVerticalTest')
+data.setCell(18, 3, 651);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestEmptyPage')
+data.setCell(19, 2, 'test.TestSearch')
+data.setCell(19, 3, 510);
+window.suiteTableData['PrestashopTest']= { tableData: data, tableDiv: 'times-div-PrestashopTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PrestashopTest">
+              </div> <!-- times-div-PrestashopTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PrestashopTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PrestashopTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AllureTestCurrency</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCurrency(Euro, Euro)</span>
+                <span class="method-start">9873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencie...)</span>
+                <span class="method-start">12143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCurrency(Ukrainian Hryvnia, Ukrainian Hryvnia)</span>
+                <span class="method-start">12484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencie...)</span>
+                <span class="method-start">14881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">14882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCurrency(US DOLLAR, US Dollar)</span>
+                <span class="method-start">15228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencie...)</span>
+                <span class="method-start">22269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCurrencyForOneElement</span>
+                <span class="method-start">22615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkCurrencyForOneElement status=SUCCESS method=AllureTestCurrency.checkCurrencyFo...)</span>
+                <span class="method-start">28922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">28924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkExchangeCurrencyUsdToUa</span>
+                <span class="method-start">29746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkExchangeCurrencyUsdToUa status=FAILURE method=AllureTestCurrency.checkExchange...)</span>
+                <span class="method-start">35744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkExchangeCurrencyUsdToEu</span>
+                <span class="method-start">36513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkExchangeCurrencyUsdToEu status=FAILURE method=AllureTestCurrency.checkExchange...)</span>
+                <span class="method-start">42974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43299 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44072 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">48126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestElementsInSearch</span>
+                <span class="method-start">52449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestElementsInSearch status=SUCCESS method=TestSearch.TestElementsInSearch()[pri:0,...)</span>
+                <span class="method-start">53357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">53360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEmptyPage</span>
+                <span class="method-start">53699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestEmptyPage status=SUCCESS method=TestSearch.TestEmptyPage()[pri:0, instance:test...)</span>
+                <span class="method-start">54210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">54212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestSearchResultSortAZ</span>
+                <span class="method-start">54537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestSearchResultSortAZ status=SUCCESS method=TestSearch.TestSearchResultSortAZ()[pr...)</span>
+                <span class="method-start">55371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">55373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestSearchResultSortAZNotWork</span>
+                <span class="method-start">55712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestSearchResultSortAZNotWork status=FAILURE method=TestSearch.TestSearchResultSort...)</span>
+                <span class="method-start">57006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">57355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TetsAfterSearch</span>
+                <span class="method-start">57695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TetsAfterSearch status=SUCCESS method=TestSearch.TetsAfterSearch()[pri:0, instance:...)</span>
+                <span class="method-start">58414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58415 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.HorizontalAndVerticalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59025 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">63225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">67709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkClothes</span>
+                <span class="method-start">67964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkClothes status=SUCCESS method=HorizontalAndVerticalTest.checkClothes()[pri:1, ...)</span>
+                <span class="method-start">69052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">69053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">69440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenClothes</span>
+                <span class="method-start">69751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkMenClothes status=SUCCESS method=HorizontalAndVerticalTest.checkMenClothes()[p...)</span>
+                <span class="method-start">71444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">71448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">72297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkAccessories</span>
+                <span class="method-start">72537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkAccessories()...)</span>
+                <span class="method-start">73483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">73487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">73838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkStationeryAccessories</span>
+                <span class="method-start">74088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkStationeryAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkSta...)</span>
+                <span class="method-start">74762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">74764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">75076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkArt</span>
+                <span class="method-start">75344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkArt status=SUCCESS method=HorizontalAndVerticalTest.checkArt()[pri:5, instance...)</span>
+                <span class="method-start">76000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76001 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestCartFunctional</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76684 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">80718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart</span>
+                <span class="method-start">84977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addProductToCart status=SUCCESS method=TestCartFunctional.addProductToCart()[pri:0,...)</span>
+                <span class="method-start">88328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">88329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteProductFromShoppingCart</span>
+                <span class="method-start">88821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=deleteProductFromShoppingCart status=SUCCESS method=TestCartFunctional.deleteProduc...)</span>
+                <span class="method-start">93715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">93716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">priceProductFromShoppingCart</span>
+                <span class="method-start">94051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=priceProductFromShoppingCart status=SUCCESS method=TestCartFunctional.priceProductF...)</span>
+                <span class="method-start">105196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">105197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">wrongAddProductToCart</span>
+                <span class="method-start">105564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=wrongAddProductToCart status=FAILURE method=TestCartFunctional.wrongAddProductToCar...)</span>
+                <span class="method-start">108436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108710 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

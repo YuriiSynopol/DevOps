@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PrestashopTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Currency TEst(failed)" verbose="0">
+    <classes>
+      <class name="test.AllureTestCurrency">
+        <methods>
+          <include name="checkExchangeCurrencyUsdToUa"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="checkExchangeCurrencyUsdToEu"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.AllureTestCurrency -->
+    </classes>
+  </test> <!-- Currency TEst(failed) -->
+  <test thread-count="5" name="Search Test(failed)" verbose="0">
+    <classes>
+      <class name="test.TestSearch">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestSearchResultSortAZNotWork"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestSearch -->
+    </classes>
+  </test> <!-- Search Test(failed) -->
+  <test thread-count="5" name="Cart Functional Test(failed)" verbose="0">
+    <classes>
+      <class name="test.TestCartFunctional">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="wrongAddProductToCart"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestCartFunctional -->
+    </classes>
+  </test> <!-- Cart Functional Test(failed) -->
+</suite> <!-- Failed suite [PrestashopTest] -->

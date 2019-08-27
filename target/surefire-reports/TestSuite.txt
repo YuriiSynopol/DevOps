@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 111.576 s <<< FAILURE! - in TestSuite
+checkExchangeCurrencyUsdToUa(test.AllureTestCurrency)  Time elapsed: 5.986 s  <<< FAILURE!
+java.lang.AssertionError: expected [495.21] but found [544.92]
+	at test.AllureTestCurrency.checkExchangeCurrencyUsdToUa(AllureTestCurrency.java:85)
+
+checkExchangeCurrencyUsdToEu(test.AllureTestCurrency)  Time elapsed: 6.458 s  <<< FAILURE!
+java.lang.AssertionError: expected [15.3] but found [0.0]
+	at test.AllureTestCurrency.checkExchangeCurrencyUsdToEu(AllureTestCurrency.java:114)
+
+TestSearchResultSortAZNotWork(test.TestSearch)  Time elapsed: 1.291 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: Customizable Mug != Pack Mug + Framed Poster expected [Customizable Mug] but found [Pack Mug + Framed Poster]
+	at test.TestSearch.TestSearchResultSortAZNotWork(TestSearch.java:144)
+
+wrongAddProductToCart(test.TestCartFunctional)  Time elapsed: 2.87 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at test.TestCartFunctional.wrongAddProductToCart(TestCartFunctional.java:84)
+

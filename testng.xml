@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PrestashopTest">
+    <test name="Currency TEst">
+        <classes>
+            <class name="test.AllureTestCurrency"/>
+        </classes>
+    </test>
+    <test name="Search Test">
+        <classes>
+            <class name="test.TestSearch" />
+        </classes>
+    </test>
+    <test name="Horizontal And Vertical Menu Test">
+        <classes>
+            <class name="test.HorizontalAndVerticalTest" />
+        </classes>
+    </test>
+    <test name="Cart Functional Test">
+        <classes>
+            <class name="test.TestCartFunctional"/>
+        </classes>
+    </test>
+</suite>
