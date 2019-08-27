@@ -24,7 +24,7 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Lv413/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
