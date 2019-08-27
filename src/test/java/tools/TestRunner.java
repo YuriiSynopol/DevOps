@@ -28,6 +28,7 @@ public abstract class TestRunner {
 
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
+        options.setBinary("path/to/other/chrome/binary");
         options.addArguments("--no-sandbox");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
