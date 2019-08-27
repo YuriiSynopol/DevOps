@@ -24,7 +24,7 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public abstract class TestRunner {
 
     @BeforeMethod
     public void beforeMethod() {
-        driver.get("");
+        driver.get("http://ec2-18-219-238-40.us-east-2.compute.amazonaws.com/en/");
     }
 
     protected HomePage loadApplication() {
