@@ -24,7 +24,7 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "Dev/DevOps/src/main/resources/chromedriver");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public abstract class TestRunner {
 
     @BeforeMethod
     public void beforeMethod() {
-        driver.get("http://35.225.39.45/index.php");
+        driver.get("");
     }
 
     protected HomePage loadApplication() {
