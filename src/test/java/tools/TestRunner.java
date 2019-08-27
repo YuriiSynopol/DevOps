@@ -4,6 +4,7 @@ import io.qameta.allure.Attachment;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import pages.HomePage;
@@ -25,6 +26,11 @@ public abstract class TestRunner {
     public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
