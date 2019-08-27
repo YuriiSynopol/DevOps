@@ -31,7 +31,7 @@ public abstract class TestRunner {
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.setExperimentalOption("useAutomationExtension", false);
+       
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
