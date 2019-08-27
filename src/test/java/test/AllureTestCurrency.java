@@ -22,6 +22,7 @@ public class AllureTestCurrency extends TestRunner {
                 {data.Currencies.USD, "US Dollar"}
         };
     }
+
     @Description("@Description class AllureTestCurrency; checkCurrency().")
     @Severity(SeverityLevel.NORMAL)
     @Test(dataProvider = "currencyData", priority = 1)
@@ -38,6 +39,7 @@ public class AllureTestCurrency extends TestRunner {
         Assert.assertEquals(homePage.getCurrencyTextEu(), "Euro");
         Assert.assertEquals(homePage.getCurrencyTextUsd(), "US Dollar");
     }
+    @Epic("asas")
     @Description("@Description class AllureTestCurrency; checkCurrencyForOneElement().")
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 2)
@@ -59,7 +61,7 @@ public class AllureTestCurrency extends TestRunner {
     @Severity(SeverityLevel.NORMAL)
     @Test(priority = 3)
     public void checkExchangeCurrencyUsdToUa() throws Exception {
-        double expected = 495.21;
+        double expected = 521.5;
         double UAH = 28.5;
         HomePage homePage = new HomePage(driver);
         ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
