@@ -16,6 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestRunner {
@@ -31,9 +32,10 @@ public abstract class TestRunner {
 //        options.addArguments("disable-infobars"); // disabling infobars
 //        options.addArguments("--disable-extensions"); // disabling extensions
 //        options.addArguments("--disable-gpu"); // applicable to windows os only
-//        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-//        options.addArguments("--no-sandbox"); // Bypass OS security model
-        options.setExperimentalOption("useAutomationExtension", false);
+        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+        options.addArguments("--no-sandbox"); // Bypass OS security model
+        options.addArguments("--headless");
+        // options.setExperimentalOption("useAutomationExtension", false);
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
@@ -66,9 +68,8 @@ public abstract class TestRunner {
     @Attachment(value = "Web Page Screenshot", type = "image/png")
     public byte[] takeScreenshot() {
         // Take a screenshot as byte array and return
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
-
 
 
     @AfterMethod
