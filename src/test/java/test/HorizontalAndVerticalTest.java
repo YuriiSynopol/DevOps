@@ -2,13 +2,14 @@ package test;
 
 import data.Category;
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.CategoryPage;
 import pages.HomePage;
 import tools.TestRunner;
-
+@Epic("@Epic HorizontalAndVerticalTest")
 public class HorizontalAndVerticalTest extends TestRunner {
     public HomePage homePage;
 
