@@ -16,7 +16,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestRunner {
@@ -26,12 +25,10 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox"); //Bypass OS security model
-        options.addArguments("--start-maximized");
-        options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
