@@ -26,11 +26,11 @@ public abstract class TestRunner {
     public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
+        //ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--headless");
 //        options.addArguments("--no-sandbox");
 
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
