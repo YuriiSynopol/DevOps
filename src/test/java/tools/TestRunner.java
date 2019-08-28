@@ -28,7 +28,10 @@ public abstract class TestRunner {
 
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
+        options.addArguments("--no-sandbox"); //Bypass OS security model
+        options.addArguments("--start-maximized");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
