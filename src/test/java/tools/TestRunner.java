@@ -25,7 +25,7 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         //ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--headless");
 //        options.addArguments("--no-sandbox");
